@@ -134,11 +134,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="BoardRender.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PieceRender.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.hpp" />
+    <ClInclude Include="BoardRender.hpp" />
+    <ClInclude Include="PieceRender.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

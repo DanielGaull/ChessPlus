@@ -1,13 +1,13 @@
 #include <SFML/Graphics.hpp>
-#include "Board.hpp"
+#include "BoardRender.hpp"
 
-Board::Board() {
-
-}
-Board::~Board() {
+BoardRender::BoardRender() {
 
 }
-void Board::draw(sf::RenderWindow& window) {
+BoardRender::~BoardRender() {
+
+}
+void BoardRender::draw(sf::RenderWindow& window) {
 	for (int i = 0; i < BOARD_SIZE; i++) {
 		for (int j = 0; j < BOARD_SIZE; j++) {
 			sf::RectangleShape rectangle(sf::Vector2f(RECT_SIZE, RECT_SIZE));

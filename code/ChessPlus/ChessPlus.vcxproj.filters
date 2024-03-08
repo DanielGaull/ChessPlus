@@ -24,13 +24,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Board.cpp">
+    <ClCompile Include="BoardRender.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceRender.cpp">
       <Filter>Source Files\render</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BoardRender.hpp">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceRender.hpp">
+      <Filter>Header Files\render</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

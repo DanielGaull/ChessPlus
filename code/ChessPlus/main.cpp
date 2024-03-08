@@ -1,11 +1,11 @@
 #include <SFML/Graphics.hpp>
-#include "Board.hpp"
+#include "BoardRender.hpp"
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(600, 600), "Chess+");
     
-    Board board;
+    BoardRender board;
 
     while (window.isOpen())
     {

@@ -1,14 +1,15 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class Board {
+class BoardRender {
 private:
+	// TODO: Draw based on a provided area
 	const int RECT_SIZE = 75;
 public:
 	const int BOARD_SIZE = 8;
 
-	Board();
-	~Board();
+	BoardRender();
+	~BoardRender();
 
 	/**
 	* Draws the board to the window
