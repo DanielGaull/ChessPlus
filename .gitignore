@@ -1,5 +1,13 @@
 # Visual Studio files
 .vs/
+# Compiled project files
+*.exe.recipe
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
 
 # Prerequisites
 *.d
