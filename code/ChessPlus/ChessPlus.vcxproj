@@ -137,10 +137,12 @@
     <ClCompile Include="BoardRender.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PieceRender.cpp" />
+    <ClCompile Include="ResourceHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BoardRender.hpp" />
     <ClInclude Include="PieceRender.hpp" />
+    <ClInclude Include="ResourceHandler.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

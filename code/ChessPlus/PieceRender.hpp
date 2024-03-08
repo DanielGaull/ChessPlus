@@ -2,8 +2,11 @@
 #include <SFML/Graphics.hpp>
 
 class PieceRender {
+private:
+	sf::Font& font;
+
 public:
-	PieceRender();
+	PieceRender(sf::Font font);
 	~PieceRender();
 
 	/**

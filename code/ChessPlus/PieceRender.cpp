@@ -1,7 +1,7 @@
 #include "PieceRender.hpp"
+#include <iostream>
 
-PieceRender::PieceRender() {
-
+PieceRender::PieceRender(sf::Font inFont) : font(inFont) {
 }
 
 PieceRender::~PieceRender() {
